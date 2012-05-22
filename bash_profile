@@ -34,3 +34,10 @@ alias gs='git status'
 
 # Other aliases
 alias ls='ls -lFGh'
+
+
+# Run any custom Bash profiles
+if [ -f ~/.bash_profile_custom ] 
+  then
+    ~/.bash_profile_custom
+fi 
