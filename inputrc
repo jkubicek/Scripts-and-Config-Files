@@ -1,0 +1,11 @@
+# I got these commands from here: http://blog.sanctum.geek.nz/lazier-tab-completion/
+
+# Always show completion options on TAB
+set show-all-if-ambiguous on
+
+# Ignore case
+set completion-ignore-case on
+
+# Ignore the difference between _ and -
+set completion-map-case on
+
